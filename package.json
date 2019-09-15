@@ -11,7 +11,7 @@
         "react-scripts": "3.0.1",
         "redux": "^4.0.4"
     },
-    "homepage": "https://SushilBajracharya01.github.io/The-todo-app",
+    "homepage": "https://SushilBajracharya01.github.io/the-todo-app",
     "scripts": {
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
