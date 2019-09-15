@@ -1,0 +1,74 @@
+body {
+    background-color: #23374d;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h3 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.todo-app {
+    margin-top: 0.8em;
+}
+
+.todo-header {
+    background-color: #1089ff;
+    color: #e5e5e5;
+    text-align: center
+}
+
+.todo-body {
+    background-color: #e5e5e5;
+    padding-right: 3em;
+    min-height: 70vh;
+}
+
+.inputTodo_txt {
+    font-size: 1.2em;
+}
+
+.addTodo_btn {
+    background-color: #1089ff;
+    color: #f0eeee;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 0.05em;
+}
+
+.addTodo_btn:hover {
+    background-color: #efffff;
+    color: #1089ff;
+}
+
+.todo-list {
+    font-size: 1.2em;
+}
+
+.todo-item {
+    cursor: pointer;
+}
+
+.completed {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.visibility-filters {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #eeeeee;
+    text-align: center;
+    font-size: 1.2em;
+    border-top: 1px solid #d4d4d4;
+}
+
+.filter {
+    cursor: pointer;
+}
+
+.filter:hover {
+    color: #0582ff;
+}
+
+.filter--active {
+    color: #1089ff;
+}
